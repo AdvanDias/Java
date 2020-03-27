@@ -987,7 +987,7 @@ public class SwingJavaCalculadora extends JFrame {
 														int a1 = 0;
 
 													} else {
-														System.out.println(" - caso 1");
+														System.out.println(" * caso 1");
 														int a1 = Integer.parseInt(lblN1.getText());
 														vrecebe2 = 1;
 														vrecebe = Ope.Ope(a1, a2, a3, a4, a5, a6, a7, a8, a9,
@@ -1005,7 +1005,7 @@ public class SwingJavaCalculadora extends JFrame {
 														vOpera = d;
 													}
 												} else {
-													System.out.println(" - caso 2");
+													System.out.println(" * caso 2");
 													int a2 = Integer.parseInt(lblN2.getText());
 													int a1 = Integer.parseInt(lblN1.getText());
 													vrecebe2 = 10;
@@ -1024,7 +1024,7 @@ public class SwingJavaCalculadora extends JFrame {
 													vOpera = d;
 												}
 											} else {
-												System.out.println(" - caso 3");
+												System.out.println(" * caso 3");
 												vrecebe2 = 100;
 												int a3 = Integer.parseInt(lblN3.getText());
 												int a2 = Integer.parseInt(lblN2.getText());
@@ -1044,7 +1044,7 @@ public class SwingJavaCalculadora extends JFrame {
 												vOpera = d;
 											}
 										} else {
-											System.out.println(" - caso 4");
+											System.out.println(" * caso 4");
 											vrecebe2 = 1000;
 											int a4 = Integer.parseInt(lblN4.getText());
 											int a3 = Integer.parseInt(lblN3.getText());
@@ -1065,7 +1065,7 @@ public class SwingJavaCalculadora extends JFrame {
 											vOpera = d;
 										}
 									} else {
-										System.out.println(" - caso 5");
+										System.out.println(" * caso 5");
 										vrecebe2 = 10000;
 										int a5 = Integer.parseInt(lblN5.getText());
 										int a4 = Integer.parseInt(lblN4.getText());
@@ -1087,7 +1087,7 @@ public class SwingJavaCalculadora extends JFrame {
 										vOpera = d;
 									}
 								} else {
-									System.out.println(" - caso 6");
+									System.out.println(" * caso 6");
 									vrecebe2 = 100000;
 									int a6 = Integer.parseInt(lblN6.getText());
 									int a5 = Integer.parseInt(lblN5.getText());
@@ -1109,7 +1109,7 @@ public class SwingJavaCalculadora extends JFrame {
 									vOpera = d;
 								}
 							} else {
-								System.out.println(" - caso 7");
+								System.out.println(" * caso 7");
 								vrecebe2 = 1000000;
 								int a7 = Integer.parseInt(lblN7.getText());
 								int a6 = Integer.parseInt(lblN6.getText());
@@ -1133,7 +1133,7 @@ public class SwingJavaCalculadora extends JFrame {
 							}
 
 						} else {
-							System.out.println(" - caso 8");
+							System.out.println(" * caso 8");
 							vrecebe2 = 10000000;
 							int a8 = Integer.parseInt(lblN8.getText());
 							int a7 = Integer.parseInt(lblN7.getText());
@@ -1158,7 +1158,7 @@ public class SwingJavaCalculadora extends JFrame {
 						}
 
 					} else {
-						System.out.println(" - caso 9");
+						System.out.println(" * caso 9");
 						vrecebe2 = 100000000;
 						int a9 = Integer.parseInt(lblN9.getText());
 						int a8 = Integer.parseInt(lblN8.getText());
@@ -1183,7 +1183,7 @@ public class SwingJavaCalculadora extends JFrame {
 						vOpera = d;
 					}
 				} else {
-					System.out.println(" - caso 10");
+					System.out.println(" * caso 10");
 					vrecebe2 = 1000000000;
 					int a10 = Integer.parseInt(lblN10.getText());
 					int a9 = Integer.parseInt(lblN9.getText());
@@ -1245,7 +1245,7 @@ public class SwingJavaCalculadora extends JFrame {
 														int a1 = 0;
 
 													} else {
-														System.out.println(" - caso 1");
+														System.out.println(" / caso 1");
 														int a1 = Integer.parseInt(lblN1.getText());
 														vrecebe2 = 1;
 														vrecebe = Ope.Ope(a1, a2, a3, a4, a5, a6, a7, a8, a9,
@@ -1263,7 +1263,7 @@ public class SwingJavaCalculadora extends JFrame {
 														vOpera = d;
 													}
 												} else {
-													System.out.println(" - caso 2");
+													System.out.println(" / caso 2");
 													int a2 = Integer.parseInt(lblN2.getText());
 													int a1 = Integer.parseInt(lblN1.getText());
 													vrecebe2 = 10;
@@ -1282,7 +1282,7 @@ public class SwingJavaCalculadora extends JFrame {
 													vOpera = d;
 												}
 											} else {
-												System.out.println(" - caso 3");
+												System.out.println(" / caso 3");
 												vrecebe2 = 100;
 												int a3 = Integer.parseInt(lblN3.getText());
 												int a2 = Integer.parseInt(lblN2.getText());
@@ -1302,7 +1302,7 @@ public class SwingJavaCalculadora extends JFrame {
 												vOpera = d;
 											}
 										} else {
-											System.out.println(" - caso 4");
+											System.out.println(" / caso 4");
 											vrecebe2 = 1000;
 											int a4 = Integer.parseInt(lblN4.getText());
 											int a3 = Integer.parseInt(lblN3.getText());
@@ -1323,7 +1323,7 @@ public class SwingJavaCalculadora extends JFrame {
 											vOpera = d;
 										}
 									} else {
-										System.out.println(" - caso 5");
+										System.out.println(" / caso 5");
 										vrecebe2 = 10000;
 										int a5 = Integer.parseInt(lblN5.getText());
 										int a4 = Integer.parseInt(lblN4.getText());
@@ -1345,7 +1345,7 @@ public class SwingJavaCalculadora extends JFrame {
 										vOpera = d;
 									}
 								} else {
-									System.out.println(" - caso 6");
+									System.out.println(" / caso 6");
 									vrecebe2 = 100000;
 									int a6 = Integer.parseInt(lblN6.getText());
 									int a5 = Integer.parseInt(lblN5.getText());
@@ -1367,7 +1367,7 @@ public class SwingJavaCalculadora extends JFrame {
 									vOpera = d;
 								}
 							} else {
-								System.out.println(" - caso 7");
+								System.out.println(" / caso 7");
 								vrecebe2 = 1000000;
 								int a7 = Integer.parseInt(lblN7.getText());
 								int a6 = Integer.parseInt(lblN6.getText());
@@ -1391,7 +1391,7 @@ public class SwingJavaCalculadora extends JFrame {
 							}
 
 						} else {
-							System.out.println(" - caso 8");
+							System.out.println(" / caso 8");
 							vrecebe2 = 10000000;
 							int a8 = Integer.parseInt(lblN8.getText());
 							int a7 = Integer.parseInt(lblN7.getText());
@@ -1416,7 +1416,7 @@ public class SwingJavaCalculadora extends JFrame {
 						}
 
 					} else {
-						System.out.println(" - caso 9");
+						System.out.println(" / caso 9");
 						vrecebe2 = 100000000;
 						int a9 = Integer.parseInt(lblN9.getText());
 						int a8 = Integer.parseInt(lblN8.getText());
@@ -1441,7 +1441,7 @@ public class SwingJavaCalculadora extends JFrame {
 						vOpera = d;
 					}
 				} else {
-					System.out.println(" - caso 10");
+					System.out.println(" / caso 10");
 					vrecebe2 = 1000000000;
 					int a10 = Integer.parseInt(lblN10.getText());
 					int a9 = Integer.parseInt(lblN9.getText());
